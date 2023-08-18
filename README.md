@@ -1,5 +1,4 @@
-# t-SNE Visualization
-## t-SNE (t-distributed Stochastic Neighbor Embedding)
+# t-SNE (t-distributed Stochastic Neighbor Embedding)
 
 t-SNE is a dimensionality reduction technique commonly used for visualizing high-dimensional data in lower dimensions while preserving pairwise similarities between data points. It is particularly effective at capturing complex relationships in the data that might be lost with other techniques.
 
