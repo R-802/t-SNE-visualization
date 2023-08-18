@@ -1,4 +1,4 @@
-# t-SNE Visualization Implementation
+# t-SNE Visualization
 ---
 
 ## t-SNE (t-distributed Stochastic Neighbor Embedding)
