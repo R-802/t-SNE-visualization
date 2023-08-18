@@ -17,6 +17,16 @@ The objective function is defined as follows:
 
 $$ C = KL(P || Q) = \sum_{ij} P_{ij} \log \frac{P_{ij}}{Q_{ij}}$$
 
+- \(P_{ij}\): The pairwise similarity between data points \(i\) and \(j\) in the original high-dimensional space. This is typically computed using Gaussian kernel or normalized distances.
+
+- \(Q_{ij}\): The pairwise similarity between data points \(i\) and \(j\) in the lower-dimensional space. This is typically computed using a student-t distribution.
+
+- \(C\): The cost function, which measures the Kullback-Leibler divergence between \(P_{ij}\) and \(Q_{ij}\). The optimization process aims to minimize this divergence.
+
+The optimization process adjusts the positions of the points in the lower-dimensional space in such a way that the divergence between \(P_{ij}\) and \(Q_{ij}\) is minimized. This helps in creating an embedding that maintains the pairwise similarities as much as possible.
+
+Again, I apologize for any confusion earlier. Please make sure to use the correct formula and explanations in your documentation.
+
 ### Perplexity
 
 Perplexity is a hyperparameter in t-SNE that controls the balance between focusing on local and global aspects of the data. It is used to determine the variance of the Gaussian distribution used to compute conditional probabilities in the high-dimensional space. A higher perplexity value encourages the algorithm to consider more points as neighbors, resulting in a smoother embedding.
