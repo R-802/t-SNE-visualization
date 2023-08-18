@@ -15,7 +15,7 @@ The t-SNE algorithm minimizes the Kullback-Leibler (KL) divergence between two p
 
 The objective function is defined as follows:
 
-$\C = KL(P || Q) = \sum_i \sum_j P_{ij} \log \frac{P_{ij}}{Q_{ij}}\$
+$$ C = KL(P || Q) = \sum_i \sum_j P_{ij} \log \frac{P_{ij}}{Q_{ij}}$$
 
 ### Perplexity
 
