@@ -26,7 +26,7 @@ The optimization process adjusts the positions of the points in the lower-dimens
 
 Perplexity is a hyperparameter in t-SNE that controls the balance between focusing on local and global aspects of the data. It is used to determine the variance of the Gaussian distribution used to compute conditional probabilities in the high-dimensional space. A higher perplexity value encourages the algorithm to consider more points as neighbors, resulting in a smoother embedding.
 
-## Steps of the Algorithm
+## The Algorithm
 1. Compute pairwise Euclidean distances between data points in the high-dimensional space.
 2. Convert the Euclidean distances to conditional probabilities using a Gaussian distribution with a specified perplexity value.
 3. Initialize the embeddings randomly in the lower-dimensional space.
